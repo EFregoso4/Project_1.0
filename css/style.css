@@ -3,14 +3,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-height: 100vh;
+    min-height: 100vh;
     background-color: #fff;
     margin: 0;
     background-image: url('../images/chicago_white_sox_logo_jersey_.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding:20px;
+    padding: 20px;
 }
 body::before {
     content: "";
@@ -21,10 +21,11 @@ body::before {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
+}
 .container {
     width: 90%;
     max-width: 400px;
-    background: rgba(255,255, 255m 0.9);
+    background: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -38,10 +39,11 @@ body::before {
 p {
     text-align: center;
     color: #333;
+}
 form {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     width: 100%;
 }
 label {
@@ -81,4 +83,3 @@ button:hover {
     text-align: center;
     font-weight: bold;
 }
-
