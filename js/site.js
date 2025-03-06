@@ -1,5 +1,6 @@
-// jQuery 3.x-style ready event and locally scoped $
-jQuery(function($) {
-  $('html').removeClass('nojs');
-  $('html').addClass('hasjs');
-});
+document.getElementById("signup-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let feedback = document.getElementById("feedback");
