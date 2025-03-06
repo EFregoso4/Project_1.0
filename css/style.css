@@ -7,7 +7,7 @@ body {
     background-color: #fff;
     margin: 0;
     background-image: url('../images/chicago-white-sox-logo-retro.png');
-    background-size: cover;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
