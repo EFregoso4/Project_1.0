@@ -32,6 +32,7 @@ form {
 }
 label {
     margin-top: 10px;
+    font-weight: bold;
 }
 input {
     padding: 10px;
@@ -42,18 +43,19 @@ input {
 button {
     margin-top: 20px;
     padding: 10px;
-    background: #007bff;
+    background: #000;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 button:hover {
-    background: #0056b3;
+    background: #333;
 }
 #feedback {
     margin-top: 10px;
     text-align: center;
-    color: red;
+    font-weight: bold;
 }
 
