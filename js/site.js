@@ -10,6 +10,6 @@ document.getElementById("signup-form").addEventListener("submit", function(event
         feedback.textContent = "Welcome to the White Sox Fan Club!";
     } else {
         feedback.style.color = "red";
-        feedback.textContent = "Please complete all fields correctly.";
+        feedback.textContent = "Must complete all fields to continue!";
     }
 });
