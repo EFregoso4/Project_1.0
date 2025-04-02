@@ -12,6 +12,14 @@ body {
     background-position: center;
     padding: 20px;
 }
+.right-image {
+    max-width: 40%; 
+    height: auto;   
+    position: absolute;
+    right: 20px;    
+    top: 50%;
+    transform: translateY(-50%); 
+}
 body::before {
     content: "";
     position: fixed;
