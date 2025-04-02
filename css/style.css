@@ -65,19 +65,17 @@ input, button {
 }
 button {
     margin-top: 20px;
-    padding: 10px;
     background: #000;
     color: white;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    width: 100%;
-    max-width: 350px;
 }
+
 button:hover {
     background: #333;
 }
+
 #feedback {
     margin-top: 10px;
     text-align: center;
