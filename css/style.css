@@ -175,4 +175,10 @@ button:hover {
     button:hover {
         background: #444;
     }
+    .right-image {
+        max-width: 40%;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
