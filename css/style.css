@@ -81,3 +81,15 @@ button:hover {
     text-align: center;
     font-weight: bold;
 }
+@media (min-width: 600px) {
+    body {
+        background-size: 50%;
+        border-radius: 15px;
+    }
+    .signup-box h1 {
+        font-size: 28px;
+    }
+    button {
+        margin-top: 25px;
+    }
+}
