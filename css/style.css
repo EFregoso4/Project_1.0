@@ -27,3 +27,43 @@ body {
   z-index: -1; 
 }
 
+.container {
+  width: 90%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup-box h1 {
+  text-align: center;
+  color: #000;
+  font-family: "Arial Black", "Helvetica", sans-serif;
+}
+
+p {
+  text-align: center;
+  color: #333;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  width: 100%;
+  max-width: 350px;
+}
+
+
+
