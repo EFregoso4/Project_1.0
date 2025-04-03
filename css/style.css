@@ -14,3 +14,16 @@ body {
   background-position: left center;
   padding: 20px;
 }
+.right-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40vw; 
+  height: 100vh;
+  background-image: url('../images/chicago_white_sox_logo_jersey_.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+  z-index: -1; 
+}
+
